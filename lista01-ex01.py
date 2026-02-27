@@ -1,7 +1,7 @@
-def classificar_numero(n):
-    if n > 0:
+def classificar_numero(numero):
+    if numero > 0:
         return "positivo"
-    elif n < 0: 
+    elif numero < 0: 
         return "negativo"
     else:
         return "neutro ou 0"
