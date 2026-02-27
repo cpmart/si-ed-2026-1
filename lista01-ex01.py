@@ -4,7 +4,9 @@ def classificar_numero(numero):
     elif numero < 0: 
         return "negativo"
     else:
-        return "neutro ou 0"
-resultado = classificar_numero(0)
-print(resultado)
+        return "neutro"
+    
+numero = int(input("Informe o número: "))
+resultado = classificar_numero(numero)
+print(f"O número {numero} é {resultado}")
 
