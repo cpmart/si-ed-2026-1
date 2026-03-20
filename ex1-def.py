@@ -2,8 +2,8 @@ def soma(v1, v2):
     total = v1 + v2
     return total
 
-
-print(soma(10, 20))
+resultado = soma(10, 20)
+print(resultado)
 
 
 def subtracao(v1, v2):
